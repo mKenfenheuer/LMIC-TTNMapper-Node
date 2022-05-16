@@ -6,7 +6,7 @@ This is a modified version of the [LMIC-Template](https://github.com/lnlp/LMIC-n
 
 * Select your board in the file `platformio.ini` in the section of `[platformio]`.
 * Input the GPS Pins (`GPS_TX` and `GPS_RX`) of the GPS Module inside the file `platformio.ini` in the `[common]` section.
-* Copy the file `lorawan-keys_example.h` to `lorawan_keys.h` and input your key information.
+* Copy the file `keyfiles/lorawan-keys_example.h` to `keyfiles/lorawan_keys.h` and input your key information.
 * Build and upload the firmware to your device.
 * Have fun.  
 
