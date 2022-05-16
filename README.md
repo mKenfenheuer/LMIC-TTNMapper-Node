@@ -1,3 +1,21 @@
+# LMIC TTN Mapper Node
+
+This is a modified version of the [LMIC-Template](https://github.com/lnlp/LMIC-node), modified to collect GPS information via a GPS-Module and to transfert it via LoRa to TTN Mapper.
+
+## How to get it working?
+
+* Select your board in the file `platformio.ini` in the section of `[platformio]`.
+* Input the GPS Pins (`GPS_TX` and `GPS_RX`) of the GPS Module inside the file `platformio.ini` in the `[common]` section.
+* Copy the file `lorawan-keys_example.h` to `lorawan_keys.h` and input your key information.
+* Build and upload the firmware to your device.
+* Have fun.  
+
+
+
+
+
+# Original ReadMe
+
 This repository contains LMIC-node, an example LoRaWAN application for a node for The Things Network.  
 Get your node quickly up and running with LMIC-node.
 
